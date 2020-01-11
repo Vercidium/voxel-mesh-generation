@@ -18,9 +18,9 @@ Mesh generation and VBO buffering is kept separate so that multiple chunks can b
 ## Benchmarks
 Benchmarks were run with a Ryzen 5 1600 CPU
 
-ST = Single Threaded Time (milliseconds)
-MTT = Multi Threaded Time (milliseconds) - 12 threads each initialising 1/12th of the map
-CMGT = Chunk Mesh Generation Time
+- ST = Single Threaded Time (milliseconds)
+- MTT = Multi Threaded Time (milliseconds) - 12 threads each initialising 1/12th of the map
+- CMGT = Chunk Mesh Generation Time
 
 | Map Name          | Chunk Count | Total STT | Total MTT | Average CMGT |
 |:-----------------:|:-----------:|:---------:|:---------:|:------------:|
