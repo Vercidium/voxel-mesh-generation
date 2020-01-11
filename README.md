@@ -19,16 +19,16 @@ Mesh generation and VBO buffering is kept separate so that multiple chunks can b
 Benchmarks were run with a Ryzen 5 1600 CPU
 
 - ST = Single Threaded Time (milliseconds)
-- MTT = Multi Threaded Time (milliseconds) - 12 threads each initialising 1/12th of the map
-- CMGT = Chunk Mesh Generation Time
+- MTT = Multithreaded Time (milliseconds) - 12 threads each initialising 1/12th of the map
+- CMGT = Chunk Mesh Generation Time (milliseconds)
 
 | Map Name          | Chunk Count | Total STT | Total MTT | Average CMGT |
 |:-----------------:|:-----------:|:---------:|:---------:|:------------:|
-| Crashed Freighter | 799         | 421       | 110       | 0.527ms      |
-| Soltrium Temple   | 648         | 280       | 73        | 0.432ms      |
-| Aegis Desert      | 441         | 201       | 51        | 0.456ms      |
-| Magma Chamber     | 293         | 157       | 38        | 0.535ms      |
-| Arena             | 108         | 30        | 12        | 0.278ms      |
+| Crashed Freighter | 799         | 421       | 110       | 0.527        |
+| Soltrium Temple   | 648         | 280       | 73        | 0.432        |
+| Aegis Desert      | 441         | 201       | 51        | 0.456        |
+| Magma Chamber     | 293         | 157       | 38        | 0.535        |
+| Arena             | 108         | 30        | 12        | 0.278        |
 
 ## In Practice
 With 16 players per match, multiple chunk meshes must be regenerated every frame. This process has been optimised to ensure the game can be played smoothly on older hardware.
