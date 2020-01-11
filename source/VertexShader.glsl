@@ -11,7 +11,7 @@ layout (location = 0) in int aData;
 // Therefore mvp contains the chunk's translation combined with the view projection
 uniform mat4 mvp;
 
-// Some textures are 1x1 blocks, some are 4x4, etc.
+// Some textures are repeated over 2x2 blocks, some over 4x4, etc.
 // The sizes of the textures are stored in this array
 uniform vec2 uvSize[32];
 
