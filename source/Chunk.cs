@@ -130,15 +130,6 @@ public class Chunk
         int jS1 = j1 << 6;
 
         // Left (X-)
-        int textureHealth16 = BlockVertex.indexToTextureShifted[b.index] | ((b.health / 16) << 23);
-        int length;
-        int accessIncremented = access + 1;
-        int chunkAccess;
-        int j1 = j + 1;
-        int jS = j << 6;
-        int jS1 = j1 << 6;
-
-        // Left (X-)
         if (!chunkHelper.visitXN[access] && DrawFaceXN(j, access, minX, kCS2))
         {
             chunkHelper.visitXN[access] = true;
