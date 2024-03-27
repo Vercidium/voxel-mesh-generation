@@ -1,6 +1,10 @@
 # This Repository Is Outdated
 The new repository is [available here](https://github.com/vercidium-patreon/meshing), which features faster greedy meshing and a standalone renderer.
 
+---
+---
+---
+
 # voxel-mesh-generation
 Optimised voxel mesh generation, written in C# and open sourced from the game [Sector's Edge](https://sectorsedge.com).
 
